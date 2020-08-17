@@ -1,13 +1,8 @@
-import React from "reac";
+import React from "react";
 import ReactDOM from "react-dom";
 
-const element = (
-  <div>
-    <h1>Hola, soy Vander</h1>
-    <p>Soy estudiante de programacion</p>
-  </div>
-);
+import Badge from "./components/Badge";
 
 const container = document.getElementById("app");
 
-ReactDOM.render(element, container);
+ReactDOM.render(<Badge />, container);
