@@ -12,7 +12,7 @@ ReactDOM.render(
   <Badge
     firstName="Zhaida"
     lastName="Cazasola"
-    avatarUrl="https://www.gravatar.com/avatar/21594ed15d68ace3965642162f8d2e84?d=identicon"
+    email="idmevander@gmail.com"
     jobTitle="Kickass"
     twitter="zhaidaCazasola"
   />,
