@@ -1,0 +1,45 @@
+.BadgesList__container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.BadgesList__item {
+  height: 100px;
+  background-color: white;
+  margin-bottom: 15px;
+  display: flex;
+  box-shadow: 1px 2px 3px #888888;
+  border-radius: 3px;
+}
+
+.Item__avatar--container {
+  margin-right: 15px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Item__avatar {
+  height: 80%;
+  border-radius: 50%;
+}
+
+.Item__info--container {
+  padding: 10px 0;
+}
+
+.Item__info--container > p {
+  margin: 0;
+}
+
+.Item__info--name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Item__info--twitter {
+  color: blue;
+}
