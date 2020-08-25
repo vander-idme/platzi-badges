@@ -23,7 +23,7 @@ class BadgeList extends React.Component {
                 <p className="Item__info--name">
                   {badge.firstName} {badge.lastName}
                 </p>
-                <p className="Item__info--twitter">
+                <a className="Item__info--twitter">
                   <img
                     className="icon"
                     src={twitterIcon}
@@ -31,8 +31,8 @@ class BadgeList extends React.Component {
                     width="20px"
                   />
                   @{badge.twitter}
-                </p>
-                <p>{badge.jobTitle}</p>
+                </a>
+                <p className="Item__info--job">{badge.jobTitle}</p>
               </div>
             </li>
           );

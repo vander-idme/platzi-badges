@@ -1,16 +1,18 @@
 .BadgesList__container {
+  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .BadgesList__item {
-  height: 100px;
+  height: 90px;
   background-color: white;
   margin-bottom: 15px;
   display: flex;
   box-shadow: 1px 2px 3px #888888;
   border-radius: 3px;
+  align-items: center;
 }
 
 .Item__avatar--container {
@@ -28,18 +30,30 @@
 }
 
 .Item__info--container {
-  padding: 10px 0;
-}
-
-.Item__info--container > p {
-  margin: 0;
+  height: 100%;
+  padding-top: 10px;
 }
 
 .Item__info--name {
+  margin: 0px;
   font-size: 16px;
   font-weight: bold;
 }
 
 .Item__info--twitter {
-  color: blue;
+  font-size: 14px;
+  color: #00acee;
+  cursor: pointer;
+}
+
+.Item__info--twitter:hover {
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.Item__info--job {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
 }

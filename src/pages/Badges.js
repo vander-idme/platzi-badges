@@ -65,9 +65,7 @@ class Badges extends React.Component {
           </div>
 
           <div className="Badges__list">
-            <div className="Badges__container">
-              <BadgeList badges={this.state.data} />
-            </div>
+            <BadgeList badges={this.state.data} />
           </div>
         </div>
       </div>
