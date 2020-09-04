@@ -23,7 +23,7 @@ class BadgeList extends React.Component {
                 <p className="Item__info--name">
                   {badge.firstName} {badge.lastName}
                 </p>
-                <a className="Item__info--twitter">
+                <a href="/" className="Item__info--twitter">
                   <img
                     className="icon"
                     src={twitterIcon}
