@@ -9,7 +9,11 @@ function Home() {
   return (
     <div className="Home">
       <div className="Description__container">
-        <img className="Description__image" src={logoConf} />
+        <img
+          className="Description__image"
+          src={logoConf}
+          alt="Logo Conferencia de Platzi"
+        />
         <h1 className="Description__title">Print your Badges</h1>
         <p className="Description__paragraph">
           The easiest way to manage your conference
@@ -20,7 +24,7 @@ function Home() {
         </Link>
       </div>
       <div className="Image__container">
-        <img src={astronauts} />
+        <img src={astronauts} alt="Astronautas" />
       </div>
     </div>
   );

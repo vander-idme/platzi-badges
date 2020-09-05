@@ -6,7 +6,7 @@ import "./styles/NotFound.css";
 function NotFound() {
   return (
     <div className="NotFound__container">
-      <img src={error} />
+      <img src={error} alt="Error Bro" />
     </div>
   );
 }
