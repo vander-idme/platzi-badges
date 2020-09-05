@@ -1,0 +1,13 @@
+.NotFound__container {
+  width: 100%;
+  height: 100vh;
+  background: url("../../images/stars.svg"), #1b1b25;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NotFound__container > img {
+  width: 40vw;
+}
